@@ -1,0 +1,21 @@
+html
+  tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: start;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+    
+     
+  }

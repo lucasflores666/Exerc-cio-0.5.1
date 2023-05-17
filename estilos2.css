@@ -1,0 +1,79 @@
+.Pendentes {
+ 
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.concluida {
+  
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.excluidas {
+  
+  border-radius: 30px;
+  padding: 5px;
+  text-decoration: none;
+  color: 
+  white;
+  margin-bottom: 20px;
+
+
+}
+
+html {
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+li {
+  display: inline;
+  height: 10px;
+
+}
+:root {
+  --cor-Pendentes: #8FD14F;;
+  --cor-concluida: #0CA789;;
+  --cor-excluidas: #EB4045;
+}
+
+.excluidas,.Pendentes,.concluida {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 80px;
+  background-color: var(--cor-Pendentes);
+  background-color: var(--cor-concluida);
+  background-color: var(--cor-excluidas);
+  
+}
+
+.excluidas {
+ background-color: #EB4045;
+}
+
+.concluida{
+  background-color: #0CA789;
+}
+
+.Pendentes{
+  background-color: #8FD14F;
+}
+.card .titulo-principal {
+  margin: 0;
+  font-size: 25px;
+  color: rgb(194, 54, 54);
+}
